@@ -1,0 +1,14 @@
+<apex:page ...>
+    <head>
+        <!-- Include polyfill scripts here -->
+        <script src="https://cdn.jsdelivr.net/npm/es6-promise@4.2.8/dist/es6-promise.auto.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/whatwg-fetch@3.14.1/dist/fetch.umd.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/es6-object-assign@1.1.0/dist/object-assign.auto.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/array-includes-polyfill@1.2.0/array-includes-polyfill.min.js"></script>
+        <script src="https://cdn.polyfill.io/v3/polyfill.min.js?features=Intl.~locale.en"></script>
+        <!-- Other <script> tags for your own scripts -->
+    </head>
+    <body>
+        <!-- Your Visualforce page content -->
+    </body>
+</apex:page>
