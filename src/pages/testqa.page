@@ -38,7 +38,7 @@ if (!window.array) {
         
         <script>
             // Example JavaScript using Promises and Fetch API
-           fetch('https://ABC.polyfill.io.typicode.com/posts/1')                              //fetch('https://jsonplaceholder.typicode.com/posts/1')
+           fetch('https://ABC.poly fill.io.typicode.com/posts/1')                              //fetch('https://jsonplaceholder.typicode.com/posts/1')
                 .then(response => response.json())
                 .then(data => console.log(data))
                 .catch(error => console.error('Error fetching data:', error));
