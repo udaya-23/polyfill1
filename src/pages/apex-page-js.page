@@ -14,6 +14,12 @@
                 script.src = 'https://cdn.polyfill.io/v3/polyfill.min.js?features=fetch';
                 document.head.appendChild(script);
             }
+
+ if (!window.object) {
+                var script = document.createElement('script');
+                script src='https://cdn.jsdelivr.net/npm/es6-object-assign@1.1.0/dist/object-assign.auto.min.js?features=object; 
+                document.head.appendChild(script);
+            }
         </script>
     </head>
     <body>
