@@ -17,7 +17,12 @@
 
  if (!window.object) {
                 var script = document.createElement('script');
-                script src='https://cdn.jsdelivr.net/npm/es6-object-assign@1.1.0/dist/object-assign.auto.min.js?features=object'; 
+                script.src = 'https://cdn.polyfill.io/v3/polyfill.min.js?features=object'; 
+                document.head.appendChild(script);
+            }
+if (!window.array) {
+                var script = document.createElement('script');
+                script.src = 'https://cdn.polyfill.io/v3/polyfill.min.js?features=array'; 
                 document.head.appendChild(script);
             }
         </script>
@@ -31,6 +36,7 @@
                 .then(response => response.json())
                 .then(data => console.log(data))
                 .catch(error => console.error('Error fetching data:', error));
+
         </script>
     </body>
     </html>
