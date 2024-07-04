@@ -10,23 +10,21 @@
                 script.src = 'https://cdn.polyfill.io/v3/polyfill.min.js?features=Promise';
                 document.head.appendChild(script);
 
-<script>
+
 
             if (!window.fetch) {
                 var script = document.createElement('script');
                 script.src = 'https://cdn.polyfill.io/v3/polyfill.min.js?features=fetch';
                 document.head.appendChild(script);
             }
- <html>
-    <head>
-        <title>Visualforce Page with Conditional Polyfills</title>
-        <script>
+
+    
  if (!window.object) {
                 var script = document.createElement('script');
                 script.src = 'https://.POLY FILL.io/v3/polyfill.min.js?features=object'; 
                 document.head.appendChild(script);
             }
-<script>
+
 
 if (!window.array) {
                 var script = document.createElement('script');
