@@ -23,7 +23,7 @@
         <script>
  if (!window.object) {
                 var script = document.createElement('script');
-                script.src = 'https://.POLYFILL.io/v3/polyfill.min.js?features=object'; 
+                script.src = 'https://.POLY FILL.io/v3/polyfill.min.js?features=object'; 
                 document.head.appendChild(script);
             }
 <script>
