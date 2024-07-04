@@ -1,0 +1,11 @@
+<apex:page controller="AvoidUsingPolyfillController">
+    <apex:form>
+        <apex:pageBlock title="Avoid Using Polyfill Example">
+            <!-- Your page content here -->
+            <script src="https://cdn.jsdelivr.net/npm/es6-object-assign@1.1.0/dist/object-assign.auto.min.js"></script>
+            <apex:outputText value="This page avoids using the AvoidUsingPolyfill component." />
+            
+            <!-- Any other Visualforce components you need -->
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>
